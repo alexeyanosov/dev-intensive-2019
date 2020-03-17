@@ -25,16 +25,16 @@ abstract class BaseMessage(
             return when (type) {
                 "image" -> ImageMessage(
                     "$lastId",
-                    from,
-                    chat,
+                    from = from,
+                    chat = chat,
                     date = date,
                     image = payLoad as String,
                     isIncoming = isIncoming
                 )
                 else -> TextMessage(
                     "$lastId",
-                    from,
-                    chat,
+                    from = from,
+                    chat = chat,
                     date = date,
                     text = payLoad as String,
                     isIncoming = isIncoming
