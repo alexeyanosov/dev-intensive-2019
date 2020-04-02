@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Dev-intensive</string>
+    <string name="app_name" translatable="false">Chat Dev-intensive</string>
+    <string name="hint_enter_text">Enter text</string>
 </resources>
